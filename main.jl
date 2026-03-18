@@ -7,7 +7,7 @@ include("utilities.jl")
 using .Rendering, .Utilities, FileIO
 
 function main()
-    screen = Screen(400, 400)
+    screen = Screen(100, 100)
 
     runfragshader!(screen, genericfragshader; blue_val=0.4)
 

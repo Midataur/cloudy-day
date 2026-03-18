@@ -48,7 +48,7 @@ end
 """
 A template for a generic fragment shader.
 Takes in a pixel value, a uv coords, and some state data in kwargs.
-Requires you to feed in a blue_val value to the runfragshader! kwargs.
+Requires you to feed in a `blue_val` value to the `runfragshader!` kwargs.
 """
 function genericfragshader(pixel_value; uv, kwargs...)
     (x, y) = uv
